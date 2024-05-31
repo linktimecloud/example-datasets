@@ -19,7 +19,7 @@ default_args = {
 
 def get_hive_connection():
     return hive.Connection(
-        host='hive-server2-0',  # The hostname or IP address of the Hive server
+        host='hive-server2',  # The hostname or IP address of the Hive server
         port=10000,           # The port number of the Hive server (default is 10000)
         username='root',      # The username to connect to Hive
         database='default',    # The database to connect to (default is 'default')
