@@ -22,7 +22,8 @@ def get_hive_connection():
         host='hive-server2-0',  # The hostname or IP address of the Hive server
         port=10000,           # The port number of the Hive server (default is 10000)
         username='root',      # The username to connect to Hive
-        database='default'    # The database to connect to (default is 'default')
+        database='default',    # The database to connect to (default is 'default')
+        auth='NOSASL'         # The authentication method
     )
 
 
