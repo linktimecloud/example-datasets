@@ -29,7 +29,7 @@ def get_hive_connection():
 
 # Define the DAG
 with DAG(
-    dag_id='hive_student_dag',
+    dag_id='hive-sql-example',
     default_args=default_args,
     description='A DAG to create Hive table and insert data, then find top students',
     schedule_interval=timedelta(days=1),  # Schedule to run once a day
